@@ -62,7 +62,7 @@ const Editpage = () => {
       <input type="file" onChange={(ev) => setFiles(ev.target.files)} />
 
       <Editor value={content} onChange={setContent} />
-      <button style={{ marginTop: "5px" }}>Edit Post</button>
+      <button style={{ marginTop: "5px" }}>Edit Post</button>z
     </form>
   );
 };
